@@ -23,7 +23,7 @@ This folder contains a bash script and other files listed below, which can be us
 ```
 mkdir lva-sample-on-ase
 cd lva-sample-on-ase
-curl -X GET https://github.com/julialieberman/azure-intelligent-edge-patterns/blob/t-jull-lvasample/Research/lva-ase-sample/src/edge/setup/setup.sh > setup.sh
+curl -X GET https://raw.githubusercontent.com/julialieberman/azure-intelligent-edge-patterns/t-jull-lvasample/Research/lva-ase-sample/src/edge/setup/setup.sh > setup.sh
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -42,4 +42,4 @@ After the script finishes, you will have certain Azure resources deployed in the
 
 #### Next Steps
 
-Follow the directions in the cloud-to-device-console-app [readme](https://github.com/Azure-Samples/azure-intelligent-edge-patterns/blob/yadavm_curbside/Research/lva-ase-sample/src/cloud-to-device-console-app/readme.md) to finish up!
+Follow the directions in the cloud-to-device-console-app [readme](https://github.com/julialieberman/azure-intelligent-edge-patterns/blob/t-jull-lvasample/Research/lva-ase-sample/src/cloud-to-device-console-app/readme.md) to finish up!
