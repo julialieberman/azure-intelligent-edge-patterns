@@ -30,7 +30,7 @@ This directory contains a dotnet core sample app that would enable you to invoke
 
 #### appsettings.json
 
-* Create a file named appsettings.json in this folder. The setup script you ran in the cloud shell creates this file for you. Copy and paste the contents into the local file you create here. 
+* Create a file named appsettings.json in this folder (src/cloud-to-device-console-app). The setup script you ran in the cloud shell creates this file for you. Copy and paste the contents into the local file you create here. 
 
 ```JSON
 {
