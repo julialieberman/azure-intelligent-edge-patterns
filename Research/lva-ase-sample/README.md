@@ -32,7 +32,6 @@ The 'src' folder contains three sub-folders
 
 * **cloud-to-device-console-app** - This folder contains a dotnet core console app that enables you to invoke direct methods of Live Video Analytics on IoT Edge module, with parameters defined by you in a JSON file (operations.json).
 * **edge** - This folder has a few IoT Edge deployment manifest templates, along with sample code for an IoT Edge module (under 'modules' folder) that can be used in conjunction with the Live Video Analytics on IoT Edge module. The setup resources are also found here.
-* **ams-asset-player** - This folder contains a ASP dotnet core app that showcases how you can playback assets recorded by Live Video Analytics on IoT Edge (in the Azure Media Services account referenced in the module twin properties).
 
 ## Prerequisites
 
