@@ -1,0 +1,55 @@
+SUBSCRIPTION_ID="8eb87630-972c-4c36-a270-f330e6c063df"
+RESOURCE_GROUP="teamlvarg"
+AMS_ACCOUNT="teamlvamediaservices"
+IOTHUB_CONNECTION_STRING="HostName=teamlvahub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=ItKv4k08OF6e2wnjqPPMhjLBe/OSBH/rkDoZ05y5qIg="
+AAD_TENANT_ID=72f988bf-86f1-41af-91ab-2d7cd011db47
+AAD_SERVICE_PRINCIPAL_ID=3c4a3bb7-32cc-4cee-bef5-31a4b93e52f4
+AAD_SERVICE_PRINCIPAL_SECRET=83ca73b2-f7ee-40aa-ac60-1ebbd83c5950
+INPUT_VIDEO_FOLDER_ON_DEVICE="juliacomputeshare4"
+OUTPUT_VIDEO_FOLDER_ON_DEVICE="juliacomputeshare4"
+APPDATA_FOLDER_ON_DEVICE="juliacomputeshare4"
+CONTAINER_REGISTRY_USERNAME_myacr=teamlvacontainerregistry
+CONTAINER_REGISTRY_PASSWORD_myacr=lpKjoIIPTQxkvHt1X73grgt/HPdz=EE1
+SUBSCRIPTION_ID="8eb87630-972c-4c36-a270-f330e6c063df"
+
+app settings:
+{
+    "IoThubConnectionString" : "HostName=teamlvahub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=ItKv4k08OF6e2wnjqPPMhjLBe/OSBH/rkDoZ05y5qIg=",
+    "deviceId" : "teamlvadbe-edge",
+    "moduleId" : "lvaEdge"
+}
+
+RESOURCE_GROUP="teamlvarg"
+AMS_ACCOUNT="teamlvamediaservices"
+IOTHUB_CONNECTION_STRING="HostName=teamlvahub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=ItKv4k08OF6e2wnjqPPMhjLBe/OSBH/rkDoZ05y5qIg="
+AAD_TENANT_ID=72f988bf-86f1-41af-91ab-2d7cd011db47
+AAD_SERVICE_PRINCIPAL_ID=3c4a3bb7-32cc-4cee-bef5-31a4b93e52f4
+AAD_SERVICE_PRINCIPAL_SECRET=83ca73b2-f7ee-40aa-ac60-1ebbd83c5950
+INPUT_VIDEO_FOLDER_ON_DEVICE="juliacomputeshare4"
+OUTPUT_VIDEO_FOLDER_ON_DEVICE="juliacomputeshare4"
+APPDATA_FOLDER_ON_DEVICE="juliacomputeshare4"
+CONTAINER_REGISTRY_USERNAME_myacr=containerregistry12345
+CONTAINER_REGISTRY_PASSWORD_myacr=mbaedQHUozm543v466cGO4KA8hFPc+t7
+
+from the lpr model .env file: 
+azureSubscriptionId="8eb87630-972c-4c36-a270-f330e6c063df"
+resourceGroupName="teamlvarg"
+resourceLocation="westus2"
+containerRegServiceName="containerregistry12345"
+iotHubServiceName="teamlvahub"
+mlSolutionPath-"../src/alpr/lva_ai_solution"
+containerImageName="teamlvargaimodule"
+iotDeviceId="teamlvadbe-edge"
+localContainerRegServiceName="teamlvacontainerregistry:2"
+storageConnStr="DefaultEndpointsProtocol=https;AccountName=teamlvastorage;AccountKey=ajccjFTp4ix3C0nNDfn2h2LpNXQPAJLS6A4bb9PUIVqH7Zq7sEwG/SBLhEdd394XkOQoqs4UFDHzd56h9gnGtA==;EndpointSuffix=core.windows.net"
+AMS_ACCOUNT="teamlvamediaservices"
+iotEdgeDeviceConnStr="HostName=teamlvahub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=ItKv4k08OF6e2wnjqPPMhjLBe/OSBH/rkDoZ05y5qIg="
+AAD_TENANT_ID=72f988bf-86f1-41af-91ab-2d7cd011db47
+AAD_SERVICE_PRINCIPAL_ID=3c4a3bb7-32cc-4cee-bef5-31a4b93e52f4
+AAD_SERVICE_PRINCIPAL_SECRET=83ca73b2-f7ee-40aa-ac60-1ebbd83c5950
+INPUT_VIDEO_FOLDER_ON_DEVICE="juliacomputeshare4"
+OUTPUT_VIDEO_FOLDER_ON_DEVICE="juliacomputeshare4"
+APPDATA_FOLDER_ON_DEVICE="juliacomputeshare4"
+acrUserName="containerregistry12345"
+acrServer="containerregistry12345.azurecr.io"
+acrPassword="mbaedQHUozm543v466cGO4KA8hFPc+t7"

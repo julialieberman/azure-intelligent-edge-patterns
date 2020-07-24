@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Research/lva-ase-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
+                "${workspaceFolder}/Research/lva-ase-lpr-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -16,23 +16,7 @@
                 "kind": "build",
                 "isDefault": true
             }
-        },
-        {
-            "label": "build-ams-asset-player",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/Research/lva-ase-sample/src/ams-asset-player/ams-asset-player.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },        
+        },       
 
         {
             "label": "publish-c2d-console-app",
@@ -40,7 +24,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Research/lva-ase-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
+                "${workspaceFolder}/Research/lva-ase-lpr-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -54,7 +38,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Research/lva-ase-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
+                "${workspaceFolder}/Research/lva-ase-lpr-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -68,7 +52,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Research/lva-ase-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
+                "${workspaceFolder}/Research/lva-ase-lpr-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -84,7 +68,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Research/lva-ase-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
+                "${workspaceFolder}/Research/lva-ase-lpr-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -97,7 +81,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Research/lva-ase-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
+                "${workspaceFolder}/Research/lva-ase-lpr-sample/src/cloud-to-device-console-app/c2d-console-app.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
